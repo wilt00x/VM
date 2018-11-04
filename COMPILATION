@@ -1,0 +1,2 @@
+gcc -Wall -m32 -static -fno-stack-protector -z execstack -z norelro -no-pie -o cpu cpu.c
+
